@@ -1,0 +1,78 @@
+/*  ----reset user agent styles---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/*  ----title of the page---- */
+.title {
+  text-align: center;
+  margin: 30px;
+  font-size: 175%;
+}
+
+/*  ----title of each sections---- */
+h2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 6px 15px;
+  font-size: 125%;
+  color: white;
+}
+
+.item-title1 {
+  background-color: rgb(247, 1, 206);
+}
+.item-title2 {
+  background-color: rgb(212, 34, 34);
+}
+.item-title3 {
+  background-color: rgb(109, 3, 196);
+}
+p {
+  margin-top: 30px;
+}
+
+/*  ----sections styles---- */
+.item {
+  margin: 20px;
+  background-color: rgb(174, 238, 223);
+  padding: 20px;
+  border: 1px solid black;
+  position: relative;
+}
+.col-lg-4,
+.col-mid-6,
+.col-sm-12 {
+  float: left;
+}
+
+/*  ----query for desktop---- */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/*  ----query for tablet---- */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+  }
+  .row > div:nth-child(3) {
+    width: 100%;
+  }
+}
+
+/*  ----query for mobile---- */
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+}
