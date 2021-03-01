@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+.navbar .navbar-brand {
+  color: rgb(49, 49, 49);
+}
+.menu li {
+  text-align: center;
+}
+
+section > div {
+  padding: 20px;
+  width: 97%;
+  background-color: rgb(177, 175, 175);
+  margin: 20px auto;
+}
